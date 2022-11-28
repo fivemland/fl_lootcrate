@@ -15,7 +15,7 @@ $(function () {
       transition: 'all 8s cubic-bezier(.08,.6,0,1)',
     });
     $('#CardNumber78').css({
-      'background-image': 'url(nui://ox_inventory/web/build/images/' + item + '.png)',
+      'background-image': 'url(nui://ox_inventory/web/images/' + item + '.png)',
     });
     setTimeout(function () {
       $('#CardNumber78').addClass('winning-item');
