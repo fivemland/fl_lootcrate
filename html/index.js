@@ -43,7 +43,7 @@ $(function () {
     for (let i = 0; i < 101; i++) {
       const randed = randomInt(0, items[selectedCase].length);
       const element = `
-				<div id="CardNumber${i}" class="item class_red_item" style="background-image:url(nui://ox_inventory/web/build/images/${items[selectedCase][randed].item}.png)">
+				<div id="CardNumber${i}" class="item class_red_item" style="background-image:url(nui://ox_inventory/web/images/${items[selectedCase][randed].item}.png)">
 				</div>
 			`;
       $(element).appendTo('.raffle-roller-container');
